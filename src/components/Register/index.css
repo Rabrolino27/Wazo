@@ -1,0 +1,33 @@
+.name{
+    float:right;
+}
+
+.register-flex-mini{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 5px;
+}
+
+.mg-3{
+    margin: 0px 25px 20px 25px;
+    
+}
+
+
+
+label{
+    float:left;
+}
+
+.register-form{
+    margin-top:30px;
+}
+
+.text-gray{
+    color:gray;
+}
+
+.link {
+    text-decoration: none;
+    font-weight: bold;
+}

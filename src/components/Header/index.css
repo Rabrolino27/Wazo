@@ -1,0 +1,32 @@
+.header{
+    display:flex;
+    height : 60px;
+    background-color: white;
+    border-radius:5px;
+    padding : 10px 10px;
+    margin-top: 5px;
+}
+
+.sec1{
+    flex : 1;
+justify-content: start;
+    }
+
+.sec2{
+    flex : 4;
+}
+.sec3{
+flex: 1;
+}
+
+.show>.dropdown-menu {
+    display: block;
+    position: absolute;
+    margin-left: 50px;
+  }
+
+  .lnk {
+      font-weight:bold;
+      color:red;
+      text-decoration: none;
+  }

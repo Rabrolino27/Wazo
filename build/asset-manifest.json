@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Wazo/static/css/main.4b29d714.css",
+    "main.js": "/Wazo/static/js/main.754e8890.js",
+    "static/js/787.c1112931.chunk.js": "/Wazo/static/js/787.c1112931.chunk.js",
+    "index.html": "/Wazo/index.html",
+    "main.4b29d714.css.map": "/Wazo/static/css/main.4b29d714.css.map",
+    "main.754e8890.js.map": "/Wazo/static/js/main.754e8890.js.map",
+    "787.c1112931.chunk.js.map": "/Wazo/static/js/787.c1112931.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b29d714.css",
+    "static/js/main.754e8890.js"
+  ]
+}
