@@ -1,23 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import Register from "./components/Register/Index"
+import Login from "./components/Login/Index"
+import Dashboard from "./components/Dashboard/Index"
+import 'bootstrap/dist/css/bootstrap.css'
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.js';
+// import $ from 'jquery';
+// import Popper from 'popper.js';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+     <Routes> 
+<Route  path="/" element ={<Register />} > </Route>
+<Route  path="/register" element ={<Register />} > </Route>
+<Route path="/dashboard" element ={<Dashboard />} > </Route>
+<Route  path="/login" element ={<Login />} > </Route>
+<Route  path="/logout" element ={<Login />} > </Route>
+
+       </Routes>
+       </Router>
     </div>
   );
 }
